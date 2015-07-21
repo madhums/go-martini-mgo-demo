@@ -1,6 +1,6 @@
 package models
 
-import "gopkg.in/mgo.v2/bson"
+import "github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
 
 type Article struct {
 	Id        bson.ObjectId `json:"_id,omitempty" bson:"_id,omitempty"`

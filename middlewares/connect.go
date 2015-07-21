@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-martini/martini"
-	. "github.com/tj/go-debug"
-	"gopkg.in/mgo.v2"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/github.com/go-martini/martini"
+	. "github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/github.com/tj/go-debug"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/gopkg.in/mgo.v2"
 )
 
 /**
@@ -16,7 +16,7 @@ import (
 func Connect() martini.Handler {
 
 	debug := Debug("middlewares:connect")
-	uri := os.Getenv("uri")
+	uri := os.Getenv("MONGODB_URL")
 
 	if uri == "" {
 		uri = "mongodb://localhost:27017/magazine_app"

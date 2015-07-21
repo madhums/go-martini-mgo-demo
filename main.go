@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/go-martini/martini"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/github.com/go-martini/martini"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/github.com/martini-contrib/binding"
 	"github.com/madhums/go-martini-mgo-demo/handlers/articles"
 	"github.com/madhums/go-martini-mgo-demo/middlewares"
 	"github.com/madhums/go-martini-mgo-demo/models"
-	"github.com/martini-contrib/binding"
 )
 
 /**

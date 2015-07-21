@@ -1,8 +1,8 @@
 package middlewares
 
 import (
-	"github.com/go-martini/martini"
-	"github.com/martini-contrib/render"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/github.com/go-martini/martini"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/github.com/martini-contrib/render"
 )
 
 /**

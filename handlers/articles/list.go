@@ -1,10 +1,10 @@
 package articles
 
 import (
-	"github.com/go-martini/martini"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/github.com/go-martini/martini"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/github.com/martini-contrib/render"
+	"github.com/madhums/go-martini-mgo-demo/Godeps/_workspace/src/gopkg.in/mgo.v2"
 	"github.com/madhums/go-martini-mgo-demo/models"
-	"github.com/martini-contrib/render"
-	"gopkg.in/mgo.v2"
 )
 
 /**
