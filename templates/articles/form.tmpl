@@ -1,0 +1,23 @@
+<div class="page-header">
+  <h2>New Article</h2>
+</div>
+
+<form action="/articles" method="POST">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" name="title" class="form-control" id="title" placeholder="Enter the title of the article">
+  </div>
+
+  <div class="form-group">
+    <label for="body">Body</label>
+    <textarea name="body" class="form-control" rows="3" required></textarea>
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" name="draft"> Save and publish later
+    </label>
+  </div>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
